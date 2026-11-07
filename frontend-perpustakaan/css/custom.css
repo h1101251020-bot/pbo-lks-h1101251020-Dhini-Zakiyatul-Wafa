@@ -1,0 +1,14 @@
+/* Pengaturan dasar aplikasi */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Area konten utama */
+#app {
+    min-width: 0;
+}
+
+/* Efek transisi navigasi */
+nav a {
+    transition: background-color 0.2s ease;
+}

@@ -1,0 +1,22 @@
+
+### TEST 1 - CORS Preflight untuk GET
+OPTIONS http://localhost:8000/api/books
+Origin: http://localhost:3000
+Access-Control-Request-Method: GET
+
+### TEST 2 - CORS Preflight untuk POST
+OPTIONS http://localhost:8000/api/books
+Origin: http://localhost:3000
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+
+### TEST 3 - CORS Preflight untuk PUT
+OPTIONS http://localhost:8000/api/books/1
+Origin: http://localhost:3000
+Access-Control-Request-Method: PUT
+Access-Control-Request-Headers: content-type
+
+### TEST 4 - CORS Preflight untuk DELETE
+OPTIONS http://localhost:8000/api/books/1
+Origin: http://localhost:3000
+Access-Control-Request-Method: DELETE
